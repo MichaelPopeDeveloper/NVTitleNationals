@@ -13,6 +13,7 @@ class Brackets extends Component {
         <div className="row">
           <div className="col text-center d-flex flex-column justify-content-center align-items-center">
           <h1 className="p-5">Fighters Brackets</h1>
+          <h1>PLEASE CHECK AGAIN SHORTLY</h1>
             <table class="table">
               <thead>
                 <tr>
