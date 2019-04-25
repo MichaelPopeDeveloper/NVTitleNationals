@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import {
   BrowserRouter as Router,
   Route,
+  Switch,
 } from "react-router-dom";
 import Home from './Home/Home';
 import HomeInit from './HomeInit/HomeInit';
@@ -28,9 +29,9 @@ class Routes extends Component {
     return (
       <Router>
         <Menu />
-        <Route exact path="/" component={HomeInit} />
-        <Route exact path="/home" component={Home} />
-        <Route exact path="/brackets" component={Brackets} />
+        <Route exact path='/' component={HomeInit} />
+        <Route  exact path="/home" component={Home} />
+        {/* <Route component={Home} /> */}
       </Router>
     );
   }

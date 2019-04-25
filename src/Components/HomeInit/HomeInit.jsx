@@ -11,8 +11,13 @@ class HomeInit extends Component {
       <p>Correct information has been made on the registration Link and Forms.</p>
 <Link className="btn btn-md btn-primary p-1 mb-5 mt-5 w-75"
 to="/home">Home</Link>
-<Link className="btn btn-md btn-primary p-1 mb-5 mt-0 w-75"
-to="/brackets">Fighters Brackets</Link>
+<a target="_blank" href="https://www.allprosoftware.net/lvtitlenationals2019/aptsplayerroster.htm" className="btn btn-md btn-primary p-1 mb-5 mt-5 w-75 text-white" style={{cursor: 'pointer'}}>Fighters Brackets</a>
+{/* <form method="get" action="NVCampHarderPDF.pdf">
+   <button className="btn btn-md btn-primary p-1 mb-5 mt-5 w-75" type="submit">Welcome Letter</button>
+</form> */}
+ <a target="_blank" className="btn btn-md btn-primary p-1 mb-5 mt-5 w-75 text-white" style={{cursor: 'pointer'}} href="https://drive.google.com/file/d/1m94CrXnesE5t00waNvF7AZNeREkggSKk/view">Welcome Letter</a>
+{/* <Link className="btn btn-md btn-primary p-1 mb-5 mt-0 w-75"
+to="/brackets">Fighters Brackets</Link> */}
       {/* <a style={{
               fontSize: '200%',
               textAlign: 'center'

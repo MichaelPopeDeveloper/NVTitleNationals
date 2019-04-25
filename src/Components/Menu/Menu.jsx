@@ -24,11 +24,11 @@ class Menu extends Component {
                   <a className="nav-link" href="#">Home</a>
                   </Link>
                   </li>
-                  <li className="nav-item">
+                  {/* <li className="nav-item">
                   <Link to="/brackets">
                   <a className="nav-link" href="#">Fighters Brackets</a>
                   </Link>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </nav>
